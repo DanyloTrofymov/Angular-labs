@@ -1,7 +1,7 @@
 {
     "version": 1,
     "projects": {
-        "purchaseapp": {
+        "binding1": {
             "projectType": "application",
             "root": "",
             "sourceRoot": "src",
@@ -9,7 +9,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/purchaseapp",
+                        "outputPath": "dist/binding1",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -20,11 +20,11 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "purchaseapp:build"
+                        "browserTarget": "binding1:build"
                     }
                 }
             }
         }
     },
-    "defaultProject": "purchaseapp"
+    "defaultProject": "binding1"
 }
