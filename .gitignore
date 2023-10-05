@@ -6,6 +6,7 @@ dist
 *.log
 node_modules
 .angular
+makeText.py
 
 # CircleCI temporary file for cache key computation.
 # See `save_month_to_file` in `.circleci/config.yml`.
@@ -55,6 +56,7 @@ baseline.json
 
 # Ignore .history for the xyz.local-history VSCode extension
 .history
+*.docx
 
 # Husky
 .husky/_
