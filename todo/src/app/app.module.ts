@@ -12,6 +12,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from "@angular/material/core";
 @NgModule({
   declarations: [
     AppComponent
@@ -22,7 +24,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     FormsModule,
     MatButtonModule, MatToolbarModule, MatIconModule, MatBadgeModule,
     MatTableModule, MatCheckboxModule, MatFormFieldModule, MatInputModule,
-    MatSlideToggleModule
+    MatSlideToggleModule, MatDatepickerModule, MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]

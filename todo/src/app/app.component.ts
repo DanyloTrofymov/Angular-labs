@@ -22,9 +22,9 @@ export class AppComponent {
   get items(): readonly TodoItem[] {
     return this.list.items.filter(item => this.showComplete || !item.complete);
   }
-  addItem(newItem: string) {
-    if (newItem != "") {
-      this.list.addItem(newItem);
+  addItem(newItem: string, newDate: string) {
+    if (newItem != "" && newDate != "") {
+      this.list.addItem(newItem, newDate);
     }
   }
   showComplete: boolean = false;

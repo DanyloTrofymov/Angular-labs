@@ -6,7 +6,7 @@ export class TodoList {
   get items(): readonly TodoItem[] {
     return this.todoItems;
   }
-  addItem(task: string) {
-    this.todoItems.push(new TodoItem(task));
+  addItem(task: string, date: string) {
+    this.todoItems.push(new TodoItem(task, false, date));
   }
 }
