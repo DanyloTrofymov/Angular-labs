@@ -1,7 +1,7 @@
 import { Component, Input, OnInit, OnDestroy, Output, EventEmitter } from
   '@angular/core';
 import { Post } from '../app.component';
-14
+
 @Component({
   selector: 'app-post',
   templateUrl: './post.component.html',

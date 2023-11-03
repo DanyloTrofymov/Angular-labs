@@ -7,6 +7,7 @@ import { Post } from '../app.component';
 })
 export class PostFormComponent implements OnInit {
   @Output() onAdd: EventEmitter<Post> = new EventEmitter<Post>()
+  id = 2;
   title = '';
   text = '';
   constructor() { }
@@ -16,6 +17,7 @@ export class PostFormComponent implements OnInit {
   addPost() {
     if (this.title.trim() && this.text.trim()) {
       const post: Post = {
+        id: ++this.id,
         title: this.title,
         text: this.text
       }
