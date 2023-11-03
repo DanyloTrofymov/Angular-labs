@@ -15,6 +15,7 @@ export class PostComponent implements OnInit, OnDestroy {
     this.onRemove.emit(this.myPost.id)
   }
   ngOnInit(): void {
+    console.log('PostComponent ngOnInit');
   }
   ngOnDestroy() {
     console.log('метод ngOnDestroy');

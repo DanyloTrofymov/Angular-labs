@@ -11,6 +11,7 @@ export class PostFormComponent implements OnInit {
   text = '';
   constructor() { }
   ngOnInit(): void {
+    console.log('PostFormComponent ngOnInit');
   }
   addPost() {
     if (this.title.trim() && this.text.trim()) {
