@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { Post } from './app.component';
 @Pipe({
   name: 'search',
-  pure: false
+  pure: true
 })
 export class SearchPipe implements PipeTransform {
   transform(posts: Post[], search: string = ''): Post[] {

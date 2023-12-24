@@ -15,6 +15,5 @@ export class JoinPipe implements PipeTransform {
       }
     }
     return result.join(", ");
-    13
   }
 }
